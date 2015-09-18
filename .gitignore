@@ -1,0 +1,10 @@
+
+*.xccheckout
+
+*.xcuserstate
+
+*.xcbkptlist
+
+*.xcsettings
+
+monkeytalk-agent-ios/MonkeyTalk.xcodeproj/xcuserdata/*

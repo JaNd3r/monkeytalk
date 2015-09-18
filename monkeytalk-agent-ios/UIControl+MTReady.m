@@ -53,8 +53,10 @@
 	// Default ignores all events
 	return 0;
 }
+
 - (void) handleMonkeyEventFromSender:(id)sender forEvent:(UIEvent*)event {
 	// Default is a no-op
+    NSLog(@"### %s %@ %@", __PRETTY_FUNCTION__, sender, event);
 }
 
 @end

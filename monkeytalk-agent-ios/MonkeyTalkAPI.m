@@ -16,7 +16,6 @@
 
 #import "MonkeyTalkAPI.h"
 #import "MonkeyTalk.h"
-#import "MonkeyTalk+OCUnit.h"
 #import "MTUtils.h"
 
 @implementation MonkeyTalkAPI
@@ -43,8 +42,8 @@
 	return [MTUtils viewWithMonkeyID:monkeyID startingFromView:[MTUtils rootWindow] havingClass:class];
 }
 
-+ (void) runTestSuite:(SenTestSuite*)suite {
-	[[MonkeyTalk sharedMonkey] runTestSuite:suite];
++ (void) runTestSuite:(id)suite {
+    NSLog(@"No longer supported. %@", [suite description]);
 }
 
 @end

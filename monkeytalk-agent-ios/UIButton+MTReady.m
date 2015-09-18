@@ -38,7 +38,7 @@
 
 + (NSArray *)aliased {
     if (self == [UIButton class]) {
-        return [NSArray arrayWithObjects:@"UINavigationItemButtonView", @"UINavigationButton", @"UIThreePartButton", @"UIRoundedRectButton", @"UIToolbarTextButton", @"UIAlertButton", @"_UIModalItemTableViewCell", nil];
+        return [NSArray arrayWithObjects:@"UINavigationItemButtonView", @"UINavigationButton", @"UIThreePartButton", @"UIRoundedRectButton", @"UIToolbarTextButton", @"UIAlertButton", @"_UIModalItemTableViewCell", @"_UIAlertControllerCollectionViewCell", nil];
     }
     return nil;
 }

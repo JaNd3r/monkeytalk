@@ -67,6 +67,8 @@
 		15492568128A4FC60050B2EA /* UIPickerView+MTReady.m in Sources */ = {isa = PBXBuildFile; fileRef = 15492566128A4FC60050B2EA /* UIPickerView+MTReady.m */; };
 		1558766912885C0A003541C0 /* UITableViewCellContentViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1558766712885C0A003541C0 /* UITableViewCellContentViewProxy.h */; };
 		1558766A12885C0A003541C0 /* UITableViewCellContentViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1558766812885C0A003541C0 /* UITableViewCellContentViewProxy.m */; };
+		1DEF33351BAAE24300F38B7E /* UICollectionViewCell+MTReady.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DEF33331BAAE24300F38B7E /* UICollectionViewCell+MTReady.h */; settings = {ASSET_TAGS = (); }; };
+		1DEF33361BAAE24300F38B7E /* UICollectionViewCell+MTReady.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF33341BAAE24300F38B7E /* UICollectionViewCell+MTReady.m */; settings = {ASSET_TAGS = (); }; };
 		2B21117D17CC018F00574E79 /* UILabel+MTReady.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B21117917CC018F00574E79 /* UILabel+MTReady.h */; };
 		2B21117E17CC018F00574E79 /* UILabel+MTReady.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B21117A17CC018F00574E79 /* UILabel+MTReady.m */; };
 		4408848014EEB91C00AD6588 /* MTGestureCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 4408847E14EEB91C00AD6588 /* MTGestureCommand.h */; };
@@ -237,9 +239,6 @@
 		44EF56DD15A7878C00CA7581 /* MTGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EF56DB15A7878C00CA7581 /* MTGlobal.m */; };
 		44EFC5E71575588E00AA42CF /* UISegmentedControl+MTReady.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EFC5E51575588E00AA42CF /* UISegmentedControl+MTReady.h */; };
 		44EFC5E81575588E00AA42CF /* UISegmentedControl+MTReady.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EFC5E61575588E00AA42CF /* UISegmentedControl+MTReady.m */; };
-		44F35637161656DE00B994A4 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F35636161656DE00B994A4 /* libxml2.2.dylib */; };
-		44F356381616584400B994A4 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F35636161656DE00B994A4 /* libxml2.2.dylib */; };
-		44F356391616585500B994A4 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F35636161656DE00B994A4 /* libxml2.2.dylib */; };
 		44F3CEBC1423F5B800D3C408 /* MTConnectWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F3CEBA1423F5B800D3C408 /* MTConnectWebView.h */; };
 		44F3CEBD1423F5B800D3C408 /* MTConnectWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3CEBB1423F5B800D3C408 /* MTConnectWebView.m */; };
 		44FC689213F2D74E00EC9674 /* UIResponder+MTReady.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FC689013F2D74D00EC9674 /* UIResponder+MTReady.h */; };
@@ -278,7 +277,6 @@
 		D34D96A912231BDB001D0B47 /* MTDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D34D965B122312AC001D0B47 /* MTDummy.m */; };
 		D34D96AE12231C2A001D0B47 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34D966912231A87001D0B47 /* SenTestingKit.framework */; };
 		D34D975612232270001D0B47 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34D966912231A87001D0B47 /* SenTestingKit.framework */; };
-		D34D9758122322AE001D0B47 /* MonkeyTalk+OCUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = D34D962412230FD1001D0B47 /* MonkeyTalk+OCUnit.m */; };
 		D3B90ECB1230085A003C5BB0 /* UITabBarButtonProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B90ECA1230085A003C5BB0 /* UITabBarButtonProxy.m */; };
 		D3B90ECE12300897003C5BB0 /* UITabBarButtonProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B90ECD12300897003C5BB0 /* UITabBarButtonProxy.h */; };
 		D3B90FF512300BF3003C5BB0 /* UIToolbarTextButtonProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B90FF412300BF3003C5BB0 /* UIToolbarTextButtonProxy.m */; };
@@ -366,6 +364,8 @@
 		15FD54AA12D113A9008C0A3C /* objc.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objc.template; sourceTree = "<group>"; };
 		15FD555C12D141D0008C0A3C /* uiautomation.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uiautomation.template; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DEF33331BAAE24300F38B7E /* UICollectionViewCell+MTReady.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+MTReady.h"; sourceTree = "<group>"; };
+		1DEF33341BAAE24300F38B7E /* UICollectionViewCell+MTReady.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+MTReady.m"; sourceTree = "<group>"; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2B21117917CC018F00574E79 /* UILabel+MTReady.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MTReady.h"; sourceTree = "<group>"; };
@@ -624,7 +624,6 @@
 		44EF56DB15A7878C00CA7581 /* MTGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGlobal.m; sourceTree = "<group>"; };
 		44EFC5E51575588E00AA42CF /* UISegmentedControl+MTReady.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+MTReady.h"; sourceTree = "<group>"; };
 		44EFC5E61575588E00AA42CF /* UISegmentedControl+MTReady.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+MTReady.m"; sourceTree = "<group>"; };
-		44F35636161656DE00B994A4 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		44F3CEB11423F19300D3C408 /* MTObjConnect.jslib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MTObjConnect.jslib; sourceTree = "<group>"; };
 		44F3CEB31423F1B700D3C408 /* MTObjConnect.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MTObjConnect.html; sourceTree = "<group>"; };
 		44F3CEBA1423F5B800D3C408 /* MTConnectWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTConnectWebView.h; sourceTree = "<group>"; };
@@ -641,9 +640,7 @@
 		D34D95791222EE6C001D0B47 /* MTVerifyCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTVerifyCommand.h; sourceTree = "<group>"; };
 		D34D957A1222EE6C001D0B47 /* MTVerifyCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTVerifyCommand.m; sourceTree = "<group>"; };
 		D34D95801222EEEF001D0B47 /* MTCommandEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCommandEvent.h; sourceTree = "<group>"; };
-		D34D95811222EEEF001D0B47 /* MonkeyTalk+OCUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MonkeyTalk+OCUnit.h"; sourceTree = "<group>"; };
 		D34D95821222EEEF001D0B47 /* MonkeyTalkAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonkeyTalkAPI.h; sourceTree = "<group>"; };
-		D34D95831222EEEF001D0B47 /* MonkeyTalkAPI+OCUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MonkeyTalkAPI+OCUnit.h"; sourceTree = "<group>"; };
 		D34D95841222EEEF001D0B47 /* TouchSynthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchSynthesis.h; sourceTree = "<group>"; };
 		D34D95851222EEEF001D0B47 /* UIControl+MTReady.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+MTReady.h"; sourceTree = "<group>"; };
 		D34D95861222EEEF001D0B47 /* UIView+MTReady.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MTReady.h"; sourceTree = "<group>"; };
@@ -699,8 +696,6 @@
 		D34D962112230FD1001D0B47 /* MTWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWindow.m; sourceTree = "<group>"; };
 		D34D962212230FD1001D0B47 /* MonkeyTalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonkeyTalk.h; sourceTree = "<group>"; };
 		D34D962312230FD1001D0B47 /* MonkeyTalk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonkeyTalk.m; sourceTree = "<group>"; };
-		D34D962412230FD1001D0B47 /* MonkeyTalk+OCUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MonkeyTalk+OCUnit.m"; sourceTree = "<group>"; };
-		D34D962512230FD1001D0B47 /* MonkeyTalkAPI+OCUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MonkeyTalkAPI+OCUnit.m"; sourceTree = "<group>"; };
 		D34D962612230FD1001D0B47 /* NSObject+MTReady.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTReady.h"; sourceTree = "<group>"; };
 		D34D962712230FD1001D0B47 /* NSObject+MTReady.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTReady.m"; sourceTree = "<group>"; };
 		D34D962812230FD1001D0B47 /* TouchSynthesis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchSynthesis.m; sourceTree = "<group>"; };
@@ -769,7 +764,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F356381616584400B994A4 /* libxml2.2.dylib in Frameworks */,
 				44C701201476CE0E00A91333 /* Foundation.framework in Frameworks */,
 				44C7019E1476D02900A91333 /* libsqlite3.dylib in Frameworks */,
 				44C7019F1476D03900A91333 /* CFNetwork.framework in Frameworks */,
@@ -781,7 +775,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F35637161656DE00B994A4 /* libxml2.2.dylib in Frameworks */,
 				D34D967712231B1E001D0B47 /* CoreFoundation.framework in Frameworks */,
 				D34D967812231B1E001D0B47 /* CoreGraphics.framework in Frameworks */,
 				D34D967A12231B1E001D0B47 /* QuartzCore.framework in Frameworks */,
@@ -796,7 +789,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34D975612232270001D0B47 /* SenTestingKit.framework in Frameworks */,
-				44F356391616585500B994A4 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,7 +860,6 @@
 			isa = PBXGroup;
 			children = (
 				07E3330716EDC79A006AC0D8 /* WebviewRecorder.js */,
-				44F35636161656DE00B994A4 /* libxml2.2.dylib */,
 				444F4C9E14619C7500A10378 /* UIWebView Support */,
 				44F3CEB01423F16500D3C408 /* FMObjConnect */,
 				446F1ED9142A3BFB0097E32A /* QUnit */,
@@ -1338,10 +1329,6 @@
 				D34D962112230FD1001D0B47 /* MTWindow.m */,
 				D34D962212230FD1001D0B47 /* MonkeyTalk.h */,
 				D34D962312230FD1001D0B47 /* MonkeyTalk.m */,
-				D34D95811222EEEF001D0B47 /* MonkeyTalk+OCUnit.h */,
-				D34D962412230FD1001D0B47 /* MonkeyTalk+OCUnit.m */,
-				D34D95831222EEEF001D0B47 /* MonkeyTalkAPI+OCUnit.h */,
-				D34D962512230FD1001D0B47 /* MonkeyTalkAPI+OCUnit.m */,
 				D34D962612230FD1001D0B47 /* NSObject+MTReady.h */,
 				D34D962712230FD1001D0B47 /* NSObject+MTReady.m */,
 				D34D962912230FD1001D0B47 /* UIApplication+MTReady.h */,
@@ -1380,6 +1367,8 @@
 				D34D964612231187001D0B47 /* UITableView+MTReady.m */,
 				D34D964712231187001D0B47 /* UITableViewCell+MTReady.h */,
 				D34D964812231187001D0B47 /* UITableViewCell+MTReady.m */,
+				1DEF33331BAAE24300F38B7E /* UICollectionViewCell+MTReady.h */,
+				1DEF33341BAAE24300F38B7E /* UICollectionViewCell+MTReady.m */,
 				D34D964912231187001D0B47 /* UITextField+MTReady.h */,
 				D34D964A12231187001D0B47 /* UITextField+MTReady.m */,
 				D34D964B12231187001D0B47 /* UITextView+MTReady.h */,
@@ -1551,6 +1540,7 @@
 				07B05848165B970400C85707 /* UIPageControl+MTReady.h in Headers */,
 				07C012AD16AD4A8E00DEEC46 /* MTWebRecorder.h in Headers */,
 				449309F716E7C93B00DC4F45 /* UIWebDocumentView.h in Headers */,
+				1DEF33351BAAE24300F38B7E /* UICollectionViewCell+MTReady.h in Headers */,
 				449309F816E7C93B00DC4F45 /* WAKResponder.h in Headers */,
 				449309F916E7C93B00DC4F45 /* WAKView.h in Headers */,
 				449309FA16E7C93B00DC4F45 /* WebView.h in Headers */,
@@ -1653,6 +1643,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Gorilla Logic, Inc.";
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MonkeyTalk" */;
@@ -1808,7 +1799,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo \"#define MT_BUILD_STAMP @\\\"BUILD `date +%y%m%d.%H%M`\\\"\" > MTBuildStampDefines.h\necho \"#define MT_BUILD_DATE @\\\"`date +\\\"%Y-%m-%d %H:%M:%S %Z\\\"`\\\"\" >> MTBuildStampDefines.h\necho \"#define MT_BUILD_NUMBER @\\\"${BUILD_NUMBER}\\\"\" >> MTBuildStampDefines.h\necho \"#define MT_VERSION @\\\"${MT_VERSION}\\\"\" >> MTBuildStampDefines.h\n\n";
+			shellScript = "echo \"#define MT_BUILD_STAMP @\\\"BUILD `date +%y%m%d.%H%M`\\\"\" > MTBuildStampDefines.h\necho \"#define MT_BUILD_DATE @\\\"`date +\\\"%Y-%m-%d %H:%M:%S %Z\\\"`\\\"\" >> MTBuildStampDefines.h\necho \"#define MT_BUILD_NUMBER @\\\"1\\\"\" >> MTBuildStampDefines.h\necho \"#define MT_VERSION @\\\"2.0.11\\\"\" >> MTBuildStampDefines.h\n\n";
 		};
 		D34D973412232052001D0B47 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1995,6 +1986,7 @@
 				44500B041562AFE600C18578 /* UIImageView+MTReady.m in Sources */,
 				44EFC5E81575588E00AA42CF /* UISegmentedControl+MTReady.m in Sources */,
 				44EF56DD15A7878C00CA7581 /* MTGlobal.m in Sources */,
+				1DEF33361BAAE24300F38B7E /* UICollectionViewCell+MTReady.m in Sources */,
 				44DDA62D15C99E9B00219245 /* MTButtonAutomator.m in Sources */,
 				44DDA63115C9A9D500219245 /* MTInputAutomator.m in Sources */,
 				44DDA63515C9AB0100219245 /* MTButtonSelectorAutomator.m in Sources */,
@@ -2022,7 +2014,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D34D9758122322AE001D0B47 /* MonkeyTalk+OCUnit.m in Sources */,
 				4460319E13DDCB560051D882 /* BPOCUnitXMLReporter.m in Sources */,
 				4460319F13DDCB5A0051D882 /* GDataXMLNode.m in Sources */,
 			);
@@ -2079,7 +2070,10 @@
 				GCC_PREFIX_HEADER = "MonkeyTalkMediaPlayer/MonkeyTalkMediaPlayer-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2.2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2093,7 +2087,10 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MonkeyTalkMediaPlayer/MonkeyTalkMediaPlayer-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2.2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2109,7 +2106,10 @@
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2.2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2122,7 +2122,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MonkeyTalkWebView/MonkeyTalkWebView-Prefix.pch";
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2.2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2197,7 +2200,10 @@
 					"\"$(SRCROOT)\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2.2",
+				);
 				PREBINDING = NO;
 				PRODUCT_NAME = MonkeyTalk;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
@@ -2225,6 +2231,10 @@
 					"\"$(SRCROOT)\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2.2",
+				);
 				PREBINDING = NO;
 				PRODUCT_NAME = MonkeyTalk;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
@@ -2241,9 +2251,13 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2.2",
+				);
 				PRODUCT_NAME = Distribution;
 				SDKROOT = "";
-				VALID_ARCHS = i386;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -2256,9 +2270,13 @@
 				FM_VERSION = 1.0.40;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2.2",
+				);
 				PRODUCT_NAME = Distribution;
 				SDKROOT = "";
-				VALID_ARCHS = i386;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				ZERO_LINK = NO;
 			};
 			name = Release;

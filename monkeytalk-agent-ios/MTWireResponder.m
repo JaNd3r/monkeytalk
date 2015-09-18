@@ -242,9 +242,17 @@ MonkeyTalk* theMonkey;
 
 + (NSObject<MTHTTPResponse> *)screenshotResponse {
     NSString *filePath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/screenshot.png"];
-    CGImageRef imageRef = UIGetScreenImage();
-    UIImage *screenshot = [UIImage imageWithCGImage:imageRef];
-    CFRelease(imageRef);
+
+    UIScreen* screen = [UIScreen mainScreen];
+
+    UIGraphicsBeginImageContextWithOptions(screen.bounds.size, NO, screen.scale);
+    
+    UIView* snapshotView = [screen snapshotViewAfterScreenUpdates:NO];
+    [snapshotView drawViewHierarchyInRect:screen.bounds afterScreenUpdates:NO];
+    UIImage* screenshot = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+
     NSData *imgData = UIImagePNGRepresentation(screenshot);
     
     // Write the file.  Choose YES atomically to enforce an all or none write. Use the NO flag if partially written files are okay which can occur in cases of corruption

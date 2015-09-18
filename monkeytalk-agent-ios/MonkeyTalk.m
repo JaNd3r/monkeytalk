@@ -1105,8 +1105,8 @@ float retryTime;
         [jsonDict setValue:@"OK" forKey:@"result"];
         postString = [jsonWriter stringWithObject:jsonDict];
         
-        //        if ([self isScreenshotOnAll])
-        //            [self saveScreenshot:nextCommandToRun];
+        if ([self isScreenshotOnAll])
+            [self saveScreenshot:nextCommandToRun];
     }
     
     state = MTStateSuspended;
